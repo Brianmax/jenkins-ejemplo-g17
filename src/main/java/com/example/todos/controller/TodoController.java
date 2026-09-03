@@ -58,4 +58,9 @@ public class TodoController {
     public String holaController() {
         return "Holaaaa";
     }
+
+    @GetMapping("/adios")
+    public String adiosController() {
+        return "Adioss";
+    }
 }
